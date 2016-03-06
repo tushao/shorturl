@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="shortUrl">
+<head>
+    <title>short url</title>
+</head>
+<body>
+    <div >
+        <label>Name:</label>
+        <input type="text" placeholder="Enter a url" ng-model="yourName">
+        <hr>
+        <h1>Hello {{yourname || 'World'}}!</h1>
+    </div>
+    <script src="angular.min.js"></script>
+     <script src="angular-resource.min.js"></script>
+    
+</body>
+</html>
